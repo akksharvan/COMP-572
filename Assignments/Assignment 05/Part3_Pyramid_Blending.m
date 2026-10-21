@@ -2,6 +2,13 @@ close('all');
 
 show_figures = true;
 write_outputs = false;
+% The batch runner can override display and export without editing this script.
+if exist('assignment_show_figures', 'var')
+    show_figures = assignment_show_figures;
+end
+if exist('assignment_write_outputs', 'var')
+    write_outputs = assignment_write_outputs;
+end
 
 script_path = mfilename('fullpath');
 if isempty(script_path)
@@ -569,8 +576,8 @@ sets(5).levels = 6;
 sets(5).ready = logical(true);
 sets(5).source_size = [1200 1600 3];
 sets(5).background_size = [1200 1600 3];
-sets(5).source_url = 'https://raw.githubusercontent.com/akksharvan/comp572-assignment-5/main/images/set5_source.png';
-sets(5).background_url = 'https://raw.githubusercontent.com/akksharvan/comp572-assignment-5/main/images/set5_background.png';
+sets(5).source_url = 'https://raw.githubusercontent.com/akksharvan/COMP-572/main/Assignments/Assignment%2005/images/set5_source.png';
+sets(5).background_url = 'https://raw.githubusercontent.com/akksharvan/COMP-572/main/Assignments/Assignment%2005/images/set5_background.png';
 sets(5).source_credit = 'Taken by me: IMG_1636.HEIC, Mickey plush on a couch';
 sets(5).background_credit = 'Taken by me: IMG_1637.HEIC, a different couch';
 end
@@ -613,7 +620,7 @@ if ~isfile(image_path)
     image_path = fullfile(root_folder, relative_path);
     image_folder = fileparts(image_path);
     image_url = ['https://raw.githubusercontent.com/akksharvan/' ...
-        'comp572-assignment-5/main/images/' name extension];
+        'COMP-572/main/Assignments/Assignment%2005/images/' name extension];
     temporary_path = '';
     try
         if ~isfolder(image_folder)

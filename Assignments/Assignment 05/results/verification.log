@@ -1,0 +1,16 @@
+cut_and_paste set1: 866x1300x3 double, range [0, 1], changed samples 104322
+cut_and_paste set2: 600x900x3 double, range [0, 1], changed samples 291677
+cut_and_paste set3: 1074x1000x3 double, range [0, 1], changed samples 116000
+cut_and_paste set4: 859x960x3 double, range [0, 1], changed samples 104431
+cut_and_paste set5: 1200x1600x3 double, range [0.0078431372549, 1], changed samples 235530
+feathering set1: 866x1300x3 double, range [-3.63978999446e-16, 1], changed samples 200755
+feathering set2: 600x900x3 double, range [-4.75436683487e-16, 1], changed samples 404441
+feathering set3: 1074x1000x3 double, range [0, 1], changed samples 151550
+feathering set4: 859x960x3 double, range [0, 1], changed samples 199064
+feathering set5: 1200x1600x3 double, range [0.0196078431373, 1], changed samples 380465
+pyramid_blending set1: 866x1300x3 double, range [-0.056479390123, 1.16298881933], changed samples 1336941
+pyramid_blending set2: 600x900x3 double, range [-0.15532251442, 1.07116539061], changed samples 1290094
+pyramid_blending set3: 1074x1000x3 double, range [-0.066133680691, 1.00969767729], changed samples 1243687
+pyramid_blending set4: 859x960x3 double, range [-0.0206335409596, 1.02549455719], changed samples 956419
+pyramid_blending set5: 1200x1600x3 double, range [0.0196078431373, 1.07160615447], changed samples 2001349
+ALL 15 RESULT IMAGES VERIFIED SUCCESSFULLY.
