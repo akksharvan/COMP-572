@@ -1,0 +1,9 @@
+26.1.0.3346908 (R2026a) Update 5
+Passed reference summation, all-foreground, all-background, constant-background, identity-kernel, and grayscale checks.
+Image 1 (Course example): 676x450, radius 15, 45.7% foreground, exact foreground match.
+Image 2 (Eileen Collins): 512x512, radius 19, 53.3% foreground, exact foreground match.
+Image 3 (Tabby cat): 757x780, radius 23, 37.1% foreground, exact foreground match.
+Image 4 (Red hydrant): 900x692, radius 26, 17.3% foreground, exact foreground match.
+Image 5 (Sunflower): 800x635, radius 21, 28.7% foreground, exact foreground match.
+Image 6 (CSXL backpack): 931x940, radius 22, 41.3% foreground, exact foreground match.
+All six image runs passed.
